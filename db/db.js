@@ -312,8 +312,9 @@ export default {
 		{
 			label: "copyright-text",
 			data: [
-				"Made with &hearts; by Sahil Gupta.",
-				"&copy; No Copyrights. Feel free to use this."
+				"",
+				"",
+				"Made with &hearts; by Sahil Gupta."
 			],
 		},
 	],
