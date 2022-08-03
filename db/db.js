@@ -263,7 +263,7 @@ export default {
 			data: [
 				{
 					text: "Stackoverflow",
-					link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+					link: "https://stackoverflow.com/users/18805562/sahil-gupta",
 				},
 				{
 					text: "GitHub",
@@ -295,10 +295,10 @@ export default {
 					text: "Linkedin",
 					link: "https://www.linkedin.com/in/sahilempire/",
 				},
-				{
-					text: "Twitter",
-					link: "https://twitter.com/thesigmakid",
-				},
+				// {
+				// 	text: "Twitter",
+				// 	link: "https://twitter.com/thesigmakid",
+				// },
 				{
 					text: "Buy me a coffee",
 					link: "https://www.buymeacoffee.com/sahilempire",
