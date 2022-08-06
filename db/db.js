@@ -299,6 +299,10 @@ export default {
 				// 	text: "Twitter",
 				// 	link: "https://twitter.com/thesigmakid",
 				// },
+				// {
+				// 	text: "Instagram",
+				// 	link: "#",
+				// },
 				{
 					text: "Buy me a coffee",
 					link: "https://www.buymeacoffee.com/sahilempire",
