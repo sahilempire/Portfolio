@@ -248,9 +248,9 @@ export default {
 		{
 			title: "Class 11-12th in Science and Mathematics",
 			duration: "",
-			subtitle: "Central Board of Secondary Education",
+			subtitle: "All Saints School, Agra",
 			details: [
-				"   ",
+				"Central Board of Secondary Education",
 				"Secured 76 percentile in Class 12th Boards Examinations.",
 			],
 			tags: ["Physics", "Chemistry", "Mathematics"],
