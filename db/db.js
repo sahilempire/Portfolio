@@ -313,8 +313,8 @@ export default {
 			label: "copyright-text",
 			data: [
 				"",
-				"",
-				"Made with &hearts; by Sahil Gupta."
+				"Made with &hearts;",
+				"by Sahil Gupta."
 			],
 		},
 	],
