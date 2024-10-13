@@ -2,10 +2,10 @@ export default {
 	bio: {
 		about: {
 			text: [
-				"Hi &#128075;",
-				"I'm Sahil Gupta. I’m currently working as a Software Engineer at Biofourmis India specialized in JavaScript Applications. I did my undergrad in CS from Jaypee University of Engineering and Technology, Guna.",
-				"I'm a AI/ML Enthusiast, geek and curious human besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems.",
-				"I love to read, listen to music, and travel.",
+				"👋 Hey there! I'm <b>Sahil Gupta</b>, a passionate explorer of <b>Data Analytics</b> and <b>Machine Learning.",
+				"Armed with a degree in Computer Science from Jaypee University of Engineering and Technology, Guna, I’m on a mission to turn data into insights and algorithms into solutions.",
+			 	"As a Data Analyst</b> and <b>ML enthusiast, I love diving into complex data challenges and crafting innovative, open-source solutions. From designing predictive models to building powerful analytics projects, I’m always pushing the boundaries of what data can do.",
+			 	"When I’m not crunching numbers or coding models, you’ll find me exploring new destinations and vibing to music. 🎵✈️.",
 			],
 		},
 		contact: {
@@ -17,13 +17,13 @@ export default {
 	skills: [
 		{
 			title: "Languages",
-			skillName: "C, C++",
+			skillName: "C++, Python",
 			color: "1",
 			percentage: "70",
 		},
 		{
 			title: "Frameworks/Libraries",
-			skillName: "Angular, Reactjs",
+			skillName: "Reactjs",
 			color: "6",
 			percentage: "50",
 		},
@@ -35,19 +35,19 @@ export default {
 		},
 		{
 			title: "Clouds",
-			skillName: "Google Cloud, Heroku, Netlify",
+			skillName: "Google Cloud, AWS, Netlify",
 			color: "3",
 			percentage: "30",
 		},
 		{
 			title: "Design",
-			skillName: "HTML, Bootstrap, SCSS",
+			skillName: "HTML, Bootstrap, CSS",
 			color: "4",
 			percentage: "70",
 		},
 		{
 			title: "Version Control",
-			skillName: "GitHub, JIRA, Trello",
+			skillName: "GitHub, JIRA",
 			color: "7",
 			percentage: "70",
 		},
@@ -63,31 +63,23 @@ export default {
 			color: "5",
 			percentage: "50",
 		},
-		{
-			title: "Editor",
-			skillName: "VS Code",
-			color: "6",
-			percentage: "70",
-		},
+		// {
+		// 	title: "Editor",
+		// 	skillName: "VS Code",
+		// 	color: "6",
+		// 	percentage: "70",
+		// },
 	],
 	projects: {
 		web: [
+			{
+				projectName: "Sports Celebrity Image Classification",
+				summary:
+					"An AI/ML-based image classification model designed to categorize sports celebrities using advanced facial recognition and visual feature extraction techniques. The model was initially developed on a dataset of 100 images and utilizes deep learning algorithms to enhance accuracy. It is scalable and adaptable, with ongoing efforts to include a wider range of celebrity images and improve performance across diverse environments.",
+				techStack: ["Artificial Intelligence", "Machine Learning", "Deep Learning", "Computer Vision"],
+			},
 			// {
-			// 	projectName: "Programming Diaries",
-			// 	image: "images/programmingdiaries.png",
-			// 	summary:
-			// 		"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-			// 	preview: "https://programmingdiaries.herokuapp.com/",
-			// 	techStack: [
-			// 		"Django",
-			// 		"SQLite",
-			// 		"Bootstrap",
-			// 		"JavaScript",
-			// 		"Heroku",
-			// 	],
-			// },
-			// {
-			// 	projectName: "Find Your Bank",
+			// 	projectName: "Find Your Bank", 
 			// 	image: "images/findyourbank.png",
 			// 	summary:
 			// 		"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
@@ -112,31 +104,24 @@ export default {
 			// },
 		],
 		software: [
-			// {
-			// 	projectName: "Pizza Ordering ChatBot",
-			// 	image: "images/pizzaorderchatbot.png",
-			// 	summary:
-			// 		"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-			// 	preview:
-			// 		"https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-			// 	techStack: ["Dailogflow", "Firebase"],
-			// },
-			// {
-			// 	projectName: "WhatsApp-Bot",
-			// 	image: "images/whatsappbot.jpg",
-			// 	summary:
-			// 		"Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-			// 	preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-			// 	techStack: ["Selenium", "Chrome Webdriver", "Python"],
-			// },
-			// {
-			// 	projectName: "Bill Generator",
-			// 	image: "images/billgenerator.png",
-			// 	summary:
-			// 		"GUI to transfer data to excel sheets and generate bills on the local shops.",
-			// 	preview: "https://github.com/vinaysomawat/Bill-Generator",
-			// 	techStack: ["Tkinter", "Openxlpy", "Python"],
-			// },
+			{
+				projectName: "Bhasha - Speech Detection Model",
+				summary:
+					"A Speech Recognition model that identifies and classifies over 5 Native Indian languages, such as Gujarati, Marathi, Tamil, Telugu, and Rajasthani, from audio inputs. Focused on expanding the language repertoire and improving model accuracy.",
+				techStack: ["Natural Language Processing", "Machine Learning", "Artificial Intelligence"],
+			},
+			{
+				projectName: "LYNChPin - AI Log Maintenance System",
+				summary:
+					"An AI system that autonomously identifies individuals and updates records according to their needs. Initially trained on a dataset of six test images, establishing the foundation for the program.",
+				techStack: ["Deep Learning", "Computer Vision", "Image Processing"],
+			},
+			{
+				projectName: "Object Detection using PixelLib",
+				summary:
+					"A real-time object detection model trained on the mask_rcnn_coco dataset, capable of identifying and localizing over 100 objects in images and videos. Used for object recognition and tracking with high accuracy.",
+				techStack: ["Deep Learning", "Computer Vision", "Hardware", "Image Processing"],
+			},
 		],
 		android: [
 			// {
@@ -230,7 +215,7 @@ export default {
 			duration: "",
 			subtitle: "Jaypee University of Engineering and Technology, Guna",
 			details: [
-				"Current CGPA 7.2",
+				// "Current CGPA 7.2",
 				"Active Competitive Programmer with CodeChef Rating 1841*.",
 				"Received 500+ stars and 300+ forks on GitHub projects.",
 			],
@@ -282,10 +267,10 @@ export default {
 					text: "Enable Dark/Light Mode",
 					func: "enableDarkMode()",
 				},
-				// {
-				// 	text: "Print this page",
-				// 	func: "window.print()",
-				// },
+				{
+					text: "Print this page",
+					func: "window.print()",
+				},
 			],
 		},
 		{
@@ -297,7 +282,7 @@ export default {
 				},
 				// {
 				// 	text: "Twitter",
-				// 	link: "https://twitter.com/thesigmakid",
+				// 	link: "#",
 				// },
 				// {
 				// 	text: "Instagram",

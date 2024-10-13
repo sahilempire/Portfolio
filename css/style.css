@@ -548,15 +548,15 @@ body.offcanvas .colorlib-nav-toggle {
 	padding: 0;
 }
 
-.colorlib-experience,
+/* .colorlib-experience, */
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-blogs,
-.colorlib-work,
+/* .colorlib-blogs,
+.colorlib-work,*/
 .colorlib-about,
-.colorlib-installation,
-.colorlib-services,
+/* .colorlib-installation, 
+.colorlib-services,  */
 .colorlib-footer,
 .colorlib-contact {
 	padding-top: 3em;
@@ -566,7 +566,7 @@ body.offcanvas .colorlib-nav-toggle {
 	display: block;
 }
 @media screen and (max-width: 768px) {
-	.colorlib-experience,
+	/* .colorlib-experience, */
 	.colorlib-skills,
 	.colorlib-projects,
 	.colorlib-education,
@@ -1578,7 +1578,7 @@ body.offcanvas .colorlib-nav-toggle {
 	display: -moz-inline-stack;
 	display: inline-block;
 	zoom: 1;
-	*display: inline;
+	-display: inline;
 }
 .colorlib-social li a {
 	font-size: 22px;
@@ -1586,7 +1586,7 @@ body.offcanvas .colorlib-nav-toggle {
 	display: -moz-inline-stack;
 	display: inline-block;
 	zoom: 1;
-	*display: inline;
+	-display: inline;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	-ms-border-radius: 7px;
@@ -1840,7 +1840,7 @@ body.offcanvas .colorlib-nav-toggle {
 	display: -moz-inline-stack;
 	display: inline-block;
 	zoom: 1;
-	*display: inline;
+	-display: inline;
 	width: 30px;
 	height: 2px;
 	background-color: #000;
